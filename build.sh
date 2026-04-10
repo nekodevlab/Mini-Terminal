@@ -1,10 +1,23 @@
-mkdir build/linux
-rm build/linux/app
+#!/bin/bash
 
-g++ source/main.cpp source/core/*.cpp -Isource/include \
-    -Wall -Wextra -Wuninitialized -Wreturn-type -Wsign-compare -Wshadow -Werror \
-    -g -O0 \
-    -o build/linux/app.o
+set -e
 
-cd build/linux
-./app.o
+echo "Building project..."
+
+mkdir -p build/linux
+rm -f build/linux/app
+
+g++ \
+source/launcher.cpp \
+source/core/*.cpp \
+source/core/launcher/*.cpp \
+-Isource/include \
+-Isource/include/other \
+-Wall -Wextra -Wuninitialized -Wreturn-type -Wsign-compare -Wshadow -Werror \
+-g -O0 \
+-o build/linux/app
+
+echo "Build finished!"
+
+cd build/linux/
+./app

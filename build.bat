@@ -1,8 +1,17 @@
-mkdir build\win
+@echo off
 
-g++ source\main.cpp source\core\*.cpp -Isource\include ^
-    -Wall -Wextra -Wuninitialized -Wreturn-type -Wsign-compare -Wshadow -Werror ^
-    -g -O0 ^
-    -o build\win\app.exe
+mkdir build\windows
 
-PAUSE
+g++ ^
+source\launcher.cpp ^
+source\core\launcher\*.cpp ^
+source\core\*.cpp ^
+-Isource\include ^
+-Isource\include\other ^
+-std=c++17 ^
+-Wall -Wextra -Wpedantic ^
+-O2 ^
+-o build\windows\app.exe
+
+
+echo Build finished!

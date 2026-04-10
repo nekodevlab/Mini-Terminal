@@ -1,27 +1,20 @@
-# 📱 Mini-Terminal v0.1-prealpha
+# 📱 Mini-Terminal v0.2-alpha
 
 A simple educational terminal written in C++.
 
 ---
 
-## ✨ What's new
+## ✨ What's new: GLOBAL UPDATE!
 
-- First push to GitHub
-- Linux support added
-
----
-
-## ⚙️ Features
-
-- Structured and readable code  
-- Event System inspired by game engine architecture 😏  
-- Fully open architecture with no hidden systems  
-- Easy to extend and modify  
-- Simple and clear command execution logic  
+- NEW COMMANDS SYSTEM!
+- BEST EXPERIENCE FOR OTHER PROGRAMMERS WITH SUGARCODE!
+- BETTER BUILD FILE!
+- NEW PROJECT ARCHITECTURE!
+- THE BEST VERSION EVER!
 
 ---
 
-## 📁 Project structure
+## 📁 (OLD)Project structure
 
 ```txt
 source/
@@ -42,6 +35,24 @@ build.bat           <- Windows build script
 build.sh            <- Linux build script
 ```
 
+## 📁 (NEW)Project structure
+
+```txt
+source/
+    core/
+        launcher/
+            App.hpp
+            App.cpp
+        CommandManager.cpp
+    include/
+        other/
+            Color.hpp
+        CommandManager.hpp
+    launcher.cpp
+build.bat
+build.sh
+```
+
 ## 🧩 Requirements
 
 - Windows: MINGW64 + g++ package
@@ -54,7 +65,7 @@ build.sh            <- Linux build script
 
 ## 💡 Notes
 
-- This project is in an early stage (pre-alpha).
+- This project is in an early stage (alpha).
 Architecture may change as the system evolves.
 
 # ⚠️ DISCLAIMER ⚠️
