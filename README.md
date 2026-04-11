@@ -12,6 +12,13 @@ A simple educational terminal written in C++.
 - NEW PROJECT ARCHITECTURE!
 - THE BEST VERSION EVER!
 
+## 🥀 Deleted Features
+
+**Example: Feature - Issue**
+
+- Event System - Spaghetti code & hard to use system.
+- Some customization -
+
 ---
 
 ## 📁 (OLD)Project structure
