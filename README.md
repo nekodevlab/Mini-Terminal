@@ -1,4 +1,4 @@
-# 📱 Mini-Terminal v0.2-alpha
+# 📱 Mini-Terminal v0.2-alpha(CLOSET!)
 
 A simple educational terminal written in C++.
 
