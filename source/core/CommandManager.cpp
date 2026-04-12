@@ -1,8 +1,9 @@
-// CommandManager.cpp
-#include "CommandManager.hpp"
-#include "Color.hpp"
+// C++ Standart Headers(STL)
 #include <sstream>
 #include <iostream>
+// Custom Headers
+#include "CommandManager.hpp"
+#include "Color.hpp"
 
 void CommandManager::registerCommand(const std::string &name, Command cmd)
 {

@@ -3,15 +3,14 @@
 mkdir build\windows
 
 g++ ^
-source\launcher.cpp ^
-source\core\launcher\*.cpp ^
-source\core\*.cpp ^
--Isource\include ^
--Isource\include\other ^
--std=c++17 ^
--Wall -Wextra -Wpedantic ^
--O2 ^
--o build\windows\app.exe
+    source\Launch.cpp ^
+    source\core\*.cpp ^
+    -Iinclude\ ^
+    -std=c++20 ^
+    -Wall -Wextra -Wpedantic ^
+    -O2 ^
+    -o build\windows\TerminalStable_v0.3-alpha.exe
 
 
 echo Build finished!
+PAUSE

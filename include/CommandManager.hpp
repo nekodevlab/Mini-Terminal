@@ -1,6 +1,5 @@
-// CommandManager.hpp
 #pragma once
-
+// C++ Standart Headers(STL)
 #include <string>
 #include <map>
 #include <functional>

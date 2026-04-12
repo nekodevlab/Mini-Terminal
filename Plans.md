@@ -2,9 +2,9 @@
 
 ## Main ‼️
 
-- 1. Made a better version of the terminal! 📱
-- 2. Fix a many bugs and issues 🐞
-- 3. Redesign the architecture. ℹ️
+- 1. Made a better version of the terminal! 📱 (DONE!)
+- 2. Fix a many bugs and issues 🐞 (DONE!)
+- 3. Redesign the architecture. ℹ️ (some but DONE!)
 
 ## Other 🧩
 
