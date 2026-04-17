@@ -1,3 +1,5 @@
+/* Bye Bye! have a nice day. 17/04/2026 */
+
 // C++ Standart Headers(STL)
 #include <string>
 #include <iostream>
@@ -45,11 +47,11 @@ void EventSystem::CommandPoll()
 {
     cmd.registerCommand("help", [this](const auto &){ ShowAllCommands(); });
     cmd.registerCommand("exit", [this](const auto &){ IsWorking = false; });
-    cmd.registerCommand("type", [&](const std::vector<std::string> &args)
+    cmd.registerCommand("print", [&](const std::vector<std::string> &args)
     {
         if (args.empty())
         {
-            std::cout << Color::Bold::Red << "\"type\" MUST contain something inside!" << Color::Reset << '\n';
+            std::cout << Color::Bold::Red << "\"print\" MUST contain something inside!" << Color::Reset << '\n';
             return;
         }
         for (auto &a : args)
@@ -64,5 +66,5 @@ void EventSystem::CommandAdd()
 {
     commandList.push_back({"help", "show all available commands."});
     commandList.push_back({"exit", "closing terminal"});
-    commandList.push_back({"type", "output text to the console."});
+    commandList.push_back({"print", "output text to the console."});
 }

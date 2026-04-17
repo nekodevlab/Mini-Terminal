@@ -1,20 +1,12 @@
-# 📱 Terminal v0.3-alpha
+# 📱 Terminal v0.3-alpha(SUPPORT STOPED)
 
 A simple educational terminal written in C++.
 
 ---
 
-## ✨ What's new: GLOBAL UPDATE 2!
+## ✨ What's new
 
-- New IMPROVED Functions!
-- IMPROVED EVENT SYSTEM BACK!
-- You can see for yourself and see how cool the improvement is! 😋
-
-## 🥀 Deleted Features
-
-- App System: WORSE event system replacement(Goodbye, I hope we never meet again!)
-
----
+- Bye Bye! We are done(See more in "Bye.txt").
 
 ## 🧩 Requirements
 
@@ -26,15 +18,3 @@ A simple educational terminal written in C++.
 
 - Windows: **Start a "build.bat"**
 - Linux: **./build.sh in terminal**
-
-## 💡 Notes
-
-- This project is in an early stage (alpha).
-Architecture may change as the system evolves.
-
-## ⚠️ DISCLAIMER ⚠️
-
-- **The author is not responsible for any issues on your device.
-For safety, test in a virtual machine or isolated environment before running on your main system.**
-
-8,057 kilobyte (-327 byte)

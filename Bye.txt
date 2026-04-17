@@ -1,0 +1,15 @@
+Hello everyone!
+- We regret to inform you that, effective April 19, 2026, 
+  support for this product will be permanently terminated. 
+
+- This project could have become a major success, 
+  but we lack the resources to not only develop better versions, 
+  but even maintain them.
+
+- We tried our best, but we couldn't. 
+  We're sorry we couldn't provide you with a good product, 
+  but that doesn't mean we won't release other projects. 
+  
+  "We'll continue to live, but with more experience!"
+
+Thank you for your understanding, Best regards, Nekolab!

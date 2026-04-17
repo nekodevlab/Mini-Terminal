@@ -1,3 +1,5 @@
+/* Bye Bye! have a nice day. 17/04/2026 */
+
 // C++ Standart Headers(STL)
 #include <sstream>
 #include <iostream>
