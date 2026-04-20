@@ -4,9 +4,7 @@ A simple educational terminal written in C++.
 
 ---
 
-## ✨ What's new
-
-- Bye Bye! We are done(See more in "Bye.txt").
+## 🚫 Support stoped, Forever.
 
 ## 🧩 Requirements
 
